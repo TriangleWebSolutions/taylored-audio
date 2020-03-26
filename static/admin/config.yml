@@ -20,8 +20,21 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Full Quote", name: "quote", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Author", name: "author", widget: "string"}
-      
+      - {label: "Author Profile Picture", name: "authorpropic", widget: image}
+
+  - name: "gallery"
+    label: "Gallery"
+    folder: "src/pages/gallery"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Featured Image", name: "featuredimage", widget: image}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Location", name: "location", widget: "text"}
+
   - name: "blog"
     label: "Blog"
     folder: "src/pages/blog"
