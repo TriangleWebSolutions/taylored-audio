@@ -12,6 +12,16 @@ media_folder: static/img
 public_folder: /img
 
 collections:
+  - name: "testimonials"
+    label: "Testimonials"
+    folder: "src/pages/testimonials"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Full Quote", name: "quote", widget: "string"}
+      - {label: "Author", name: "author", widget: "string"}
+      
   - name: "blog"
     label: "Blog"
     folder: "src/pages/blog"
