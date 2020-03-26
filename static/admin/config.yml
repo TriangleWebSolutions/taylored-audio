@@ -18,6 +18,7 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "testimonials"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Full Quote", name: "quote", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
@@ -30,6 +31,7 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "gallery"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Description", name: "description", widget: "text"}
