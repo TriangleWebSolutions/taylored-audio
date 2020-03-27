@@ -28,12 +28,12 @@ class TestimonialRoll extends React.Component {
                     </div>
                     <div
                       className="title has-text-primary is-size-4"
-                      style={{paddingRight: ".5em"}}
+                      style={{paddingRight: "1em"}}
                     >
                     {post.frontmatter.title}
                     <span> &bull; </span>
                     </div>
-                    <span className="subtitle is-size-5 is-block">
+                    <span className="subtitle is-size-5 is-block" style={{paddingRight: "1.3em"}}>
                       {post.frontmatter.author} - {post.frontmatter.date}
                     </span>
                   </p>
@@ -79,7 +79,7 @@ export default () => (
         		author
                 authorpropic {
                     childImageSharp {
-                        fluid(maxWidth: 120, quality: 100) {
+                        fluid(maxWidth: 200, quality: 100) {
                           ...GatsbyImageSharpFluid
                         }
                       }
