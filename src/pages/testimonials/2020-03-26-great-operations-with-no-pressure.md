@@ -8,5 +8,5 @@ quote: >-
   entertainment needs!
 date: 2020-04-01T21:19:14.109Z
 author: Barbara Dolan Duerr
-authorpropic: /img/defaultpropic.png
+authorpropic: /img/default-woman.png
 ---
