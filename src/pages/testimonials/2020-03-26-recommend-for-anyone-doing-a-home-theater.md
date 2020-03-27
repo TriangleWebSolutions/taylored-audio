@@ -9,5 +9,5 @@ quote: >-
   not to give this guy your next home audio/visual project!
 date: 2020-03-26T21:24:52.123Z
 author: Brian Francois
-authorpropic: /img/defaultpropic.png
+authorpropic: /img/default-guy.png
 ---
