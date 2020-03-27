@@ -1,4 +1,5 @@
 ---
+templateKey: testimonials
 title: David Did a Great Job!
 quote: >-
   David did a great job hanging our TV's and routing all of the cords behind the

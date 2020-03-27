@@ -1,4 +1,5 @@
 ---
+templateKey: testimonials
 title: Recommend for Anyone Doing a Home Theater
 quote: >-
   The level of service David provides is unmatched. He is committed to making

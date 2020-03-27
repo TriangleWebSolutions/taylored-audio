@@ -1,4 +1,5 @@
 ---
+templateKey: testimonials
 title: Great Operations With No Pressure!
 quote: >-
   David came to my house at a time convenient for me. He was respectful of my
