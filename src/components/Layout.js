@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import './all.sass'
 import useSiteMetadata from './SiteMetadata'
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 import { withPrefix } from 'gatsby'
 
 const TemplateWrapper = ({ children }) => {
@@ -50,6 +51,12 @@ const TemplateWrapper = ({ children }) => {
       </Helmet>
       <Navbar />
       <div>{children}</div>
+      <div>
+        <MessengerCustomerChat
+                    pageId="1648993371852993"
+                    appId="650386135534204"
+        />
+      </div>
       <Footer />
     </div>
   )
