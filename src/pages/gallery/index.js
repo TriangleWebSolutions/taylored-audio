@@ -10,7 +10,7 @@ export default class GalleryIndexPage extends React.Component {
         <div
           className="full-width-image-container margin-top-0"
           style={{
-            backgroundImage: `url('/img/blog-index.jpg')`,
+            backgroundImage: `url('/img/gallery-index.jpg')`,
           }}
         >
           <h1

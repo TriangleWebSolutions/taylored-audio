@@ -1,6 +1,7 @@
 import React from 'react'
 import { navigate } from 'gatsby-link'
 import Layout from '../../components/Layout'
+import ReCAPTCHA from "react-google-recaptcha";
 
 function encode(data) {
   return Object.keys(data)
@@ -11,7 +12,7 @@ function encode(data) {
 export default class Index extends React.Component {
   constructor(props) {
     super(props)
-    this.state = { isValidated: false }
+    this.state = { isValidated: true, company: "trianglewebsolutions" }
   }
 
   handleChange = e => {
@@ -19,15 +20,22 @@ export default class Index extends React.Component {
   }
 
   handleSubmit = e => {
+    console.log(this.state);
+    if (!this.state.isValidated) {
+      return;
+    }
     e.preventDefault()
     const form = e.target
-    fetch('/', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: encode({
-        'form-name': form.getAttribute('name'),
-        ...this.state,
-      }),
+    var url = new URL("https://g3b2wgdnl7.execute-api.us-east-1.amazonaws.com"), 
+    params = this.state
+    Object.keys(params).forEach(key => url.searchParams.append(key, params[key]))
+    console.log(url);
+    fetch(url, {
+      method: 'GET',
+      headers: { 
+        'Content-Type': 'application/x-www-form-urlencoded',
+      },
+      mode: "no-cors",
     })
       .then(() => navigate(form.getAttribute('action')))
       .catch(error => alert(error))
@@ -39,7 +47,10 @@ export default class Index extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <h1>Contact</h1>
+              <h1>Contact Form</h1>
+              <p>Looking to contact Taylored Audio? Please let us know your contact information and a member of our team will 
+                get in touch with you as soon as possible.
+              </p>
               <form
                 name="contact"
                 method="post"
@@ -87,6 +98,21 @@ export default class Index extends React.Component {
                   </div>
                 </div>
                 <div className="field">
+                  <label className="label" htmlFor={'tel'}>
+                    Phone Number
+                  </label>
+                  <div className="control">
+                    <input
+                      className="input"
+                      type={'tel'}
+                      name={'tel'}
+                      onChange={this.handleChange}
+                      id={'tel'}
+                      required={true}
+                    />
+                  </div>
+                </div>
+                <div className="field">
                   <label className="label" htmlFor={'message'}>
                     Message
                   </label>
@@ -100,8 +126,14 @@ export default class Index extends React.Component {
                     />
                   </div>
                 </div>
+                <ReCAPTCHA
+                  sitekey="6LeVmucUAAAAAFxB_j9BAKAl-axsFZef9mVNz6hn"
+                  onChange={ () => {
+                    this.setState({isValidated: true});
+                  }}
+                />
                 <div className="field">
-                  <button className="button is-link" type="submit">
+                  <button className="button is-link" type="submit" disabled={!this.state.isValidated}>
                     Send
                   </button>
                 </div>
