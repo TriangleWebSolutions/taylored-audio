@@ -10,7 +10,7 @@ export default class TestimonialIndexPage extends React.Component {
         <div
           className="full-width-image-container margin-top-0"
           style={{
-            backgroundImage: `url('/img/blog-index.jpg')`,
+            backgroundImage: `url('/img/testimonial-index.jpg')`,
           }}
         >
           <h1
