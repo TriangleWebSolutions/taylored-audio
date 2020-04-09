@@ -35,7 +35,12 @@ class TestimonialRoll extends React.Component {
                 className={`blog-list-item tile is-child box notification`}
               >
                 <div className="gallery-thumbnail">
-                    <NonStretchedImage fixed={post.frontmatter.featuredimage.childImageSharp.fixed} />
+                  <PreviewCompatibleImage
+                    imageInfo={{
+                      image: post.frontmatter.featuredimage,
+                      alt: `featured image thumbnail for post ${post.frontmatter.title}`,
+                    }}
+                  />
                 </div>
                 <header>
                   <p className="post-meta">
@@ -86,8 +91,8 @@ export default () => (
                 description
                 featuredimage {
                     childImageSharp {
-                        fixed(width: 304, height: 200, quality: 90) {
-                          ...GatsbyImageSharpFixed
+                        fluid(maxWidth: 500, quality: 100) {
+                          ...GatsbyImageSharpFluid
                         }
                       }
                 }
