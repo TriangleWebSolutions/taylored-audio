@@ -4,8 +4,6 @@ import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import Features from '../components/Features'
-import MessengerCustomerChat from 'react-messenger-customer-chat';
-import BlogRoll from '../components/BlogRoll'
 
 export const IndexPageTemplate = ({
   image,
@@ -88,10 +86,6 @@ export const IndexPageTemplate = ({
                   </div>
                 </div>
                 <Features gridItems={intro.blurbs} />
-                <MessengerCustomerChat
-                  pageId="1648993371852993"
-                  appId="650386135534204"
-                />
               </div>
             </div>
           </div>
