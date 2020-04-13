@@ -70,7 +70,7 @@ const Navbar = class extends React.Component {
                 Gallery
               </Link>
               <Link className="navbar-item" to="/testimonials">
-                Testimonial
+                Testimonials
               </Link>
               <Link className="navbar-item" to="/contact">
                 Contact
