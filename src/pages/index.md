@@ -1,21 +1,19 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Taylored Audio and Home Theater
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: Our Services
+subheading: 'A fully insured, veteran owned company providing custom home installations'
 mainpitch:
-  title: Why Taylored Audio
-  description: >
-    Taylored Audio is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+  title: Let us design a space that works for you and your family.
+  description: >-
+    With over 10 years of experience in mounting and installing TV's and sound
+    systems, I come prepared with the knowledge and skill needed to complete
+    your project to your satisfaction every time - guaranteed!
 description: >-
-  Taylored Audio is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  We provide custom installations for a variety of home theater and sound system
+  setups. Here's a few of the installations we have setup for our customers in
+  the past:
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -47,10 +45,10 @@ intro:
         sale. The full price you pay goes to the artist.
   heading: What we offer
   description: >
-    Taylored Audio is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+    Taylored Audio is the ultimate spot for coffee lovers who want to learn
+    about their java’s origin and support the farmers that grew it. We take
+    coffee production, roasting and brewing seriously and we’re glad to pass
+    that knowledge to anyone. This is an edit via identity...
 main:
   heading: Great coffee with no compromises
   description: >
