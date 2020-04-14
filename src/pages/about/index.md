@@ -1,19 +1,22 @@
 ---
-templateKey: 'about-page'
+templateKey: about-page
 path: /about
-title: About our values
+title: About Us
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+### How it Started
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+My passion for the world of audio began in high school, when I installed my first amp and subwoofer in my 1979 Mustang! That's me on the right, with my little brother in said Mustang looking as cool as possible.
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+From that point on I was hooked. I haven't owned a car since then that I didn't modify the sound system in one way or another, and I usually ended up installing gear in friend's and family's cars as well.​
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+### History
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+Once I owned my own apartment, it was easy to make the transition from car audio to home audio and, once again, I became hooked in that world as well. There I am opening up my first pair of Polk Audio Home Theater speakers!
+
+### Innovation in the Industry
+
+One of my more recent interests has been home automation. With the advent of Alexa, Phillips Hue and SmartThings by Samsung, along with the Harmony remotes by Logitech, the possibilities are seemingly endless to what you can control using your voice.
+
+
+
+If you've been thinking of adding some Smart features to your home, I would love to help you navigate the sea of products that are on the market - from front door cameras to garage door openers to sensors that notify your phone when there is a water leak detected or a window or door has been opened.
