@@ -12,7 +12,7 @@ function encode(data) {
 export default class Index extends React.Component {
   constructor(props) {
     super(props)
-    this.state = { isValidated: true, company: "trianglewebsolutions" }
+    this.state = { isValidated: true, company: "tayloredaudio" }
   }
 
   handleChange = e => {
@@ -26,7 +26,7 @@ export default class Index extends React.Component {
     }
     e.preventDefault()
     const form = e.target
-    var url = new URL("https://g3b2wgdnl7.execute-api.us-east-1.amazonaws.com"), 
+    var url = new URL("https://g3b2wgdnl7.execute-api.us-east-1.amazonaws.com/generalContactUs"), 
     params = this.state
     Object.keys(params).forEach(key => url.searchParams.append(key, params[key]))
     console.log(url);
