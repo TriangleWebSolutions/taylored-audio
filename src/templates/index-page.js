@@ -26,6 +26,7 @@ export const IndexPageTemplate = ({
       }}
     >
       <div
+        className="title"
         style={{
           display: 'flex',
           height: '150px',
@@ -74,7 +75,7 @@ export const IndexPageTemplate = ({
                     <h1 className="title">{mainpitch.title}</h1>
                   </div>
                   <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
+                    <p className="subtitle">{mainpitch.description}</p>
                   </div>
                 </div>
                 <div className="columns">

@@ -14,7 +14,7 @@ export default class TestimonialIndexPage extends React.Component {
           }}
         >
           <h1
-            className="has-text-weight-bold is-size-1"
+            className="title has-text-weight-bold is-size-1"
             style={{
               boxShadow:
                 '#0A543D 0.5rem 0px 0px, #0A543D -0.5rem 0px 0px',
