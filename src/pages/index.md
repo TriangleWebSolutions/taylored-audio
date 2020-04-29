@@ -8,7 +8,7 @@ mainpitch:
   title: Let us design a space that works for you and your family.
   description: >-
     With over 10 years of experience in mounting and installing TV's and sound
-    systems, I come prepared with the knowledge and skill needed to complete
+    systems, we come prepared with the knowledge and skill needed to complete
     your project to your satisfaction every time - guaranteed!
 description: >-
   We provide custom installations for a variety of home theater and sound system
