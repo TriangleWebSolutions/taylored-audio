@@ -3,7 +3,7 @@ templateKey: index-page
 title: Taylored Audio and Home Theater
 image: /img/home-jumbotron.jpg
 heading: Our Services
-subheading: 'A fully insured, veteran owned company providing custom home installations'
+subheading: "A fully insured, veteran owned company providing custom home installations"
 mainpitch:
   title: Let us design a space that works for you and your family.
   description: >-
@@ -18,8 +18,7 @@ intro:
   blurbs:
     - image: /img/tv.png
       text: >
-        We install custom flatscreen mounts and other TV setups for a great
-        living room experience.
+        We install custom flatscreen mounts and other TV setups for a great living room experience that brings the whole family together. We specialize in flat screen TV mounting.
     - image: /img/soundbar.png
       text: >
         We've years of experience setting up sound systems and soundbars for our
@@ -27,12 +26,10 @@ intro:
         whole home audio installation.
     - image: /img/alexa.png
       text: >-
-        We understand how to integrate smart home devices into your home, aswell
-        as integrating it with your business.
+        We understand how to integrate smart home devices into your home, aswell as integrating custom wiring to help your home become more connected. We also offer many other smart home hardware such as Ring and Nest doorbell intallation.
     - image: /img/projector.png
       text: >
-        We've setup home theaters and dedicated media rooms in the past for
-        families who are serious about entertainment.
+        We setup home theaters and dedicated media rooms and provide the best installation for commericial & residential custom audio & video solutions.
   heading: What we offer
   description: >
     Taylored Audio is the ultimate spot for coffee lovers who want to learn
