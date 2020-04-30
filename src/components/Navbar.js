@@ -100,3 +100,18 @@ const Navbar = class extends React.Component {
               <a
                 className="navbar-item"
                 href="https://triangleweb.solutions"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="icon">
+                  <img src={tws} alt="Triangle Web Solutions" />
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    )
+  }
+}
+export default Navbar
