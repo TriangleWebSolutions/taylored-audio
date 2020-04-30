@@ -5,7 +5,7 @@ import instagram from '../img/instagram-icon.png'
 import tws from '../img/tws-icon.svg'
 import logo from '../img/logo.svg'
 
-@@ -77,6 +79,26 @@ const Navbar = class extends React.Component {
+const Navbar = class extends React.Component {
               </Link>
             </div>
             <div className="navbar-end has-text-centered">
