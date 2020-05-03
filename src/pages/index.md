@@ -3,7 +3,7 @@ templateKey: index-page
 title: Taylored Audio and Home Theater
 image: /img/home-jumbotron.jpg
 heading: Our Services
-subheading: 'A fully insured, veteran owned company providing custom home installations'
+subheading: "A fully insured, veteran owned company providing custom home installations"
 mainpitch:
   title: Let us design a space that works for you and your family.
   description: >-
