@@ -5,7 +5,7 @@ title: About Us
 ---
 ### How it Started
 
-My passion for the world of audio began in high school, when I installed my first amp and subwoofer in my 1979 Mustang! That's me on the right, with my little brother in said Mustang looking as cool as possible.
+My passion for audio began in high school, when I installed my first amp and subwoofer in my 1979 Mustang! That's me on the right, with my little brother in said Mustang looking as cool as possible.
 
 From that point on I was hooked. I haven't owned a car since then that I didn't modify the sound system in one way or another, and I usually ended up installing gear in friend's and family's cars as well.​
 
