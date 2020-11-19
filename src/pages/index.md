@@ -7,7 +7,7 @@ subheading: 'A fully insured, veteran owned company providing custom home instal
 mainpitch:
   title: Let us design a space that works for you and your family.
   description: >-
-    With over 10 years of experience in mounting and installing TV's and sound
+    With over ten years of experience in mounting and installing TV's and sound
     systems, we come prepared with the knowledge and skill needed to complete
     your project to your satisfaction every time - guaranteed!
 description: >-
